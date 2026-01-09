@@ -141,11 +141,11 @@ const Contact = () => {
           <p className="text-textSecondary text-lg">Have a project in mind? Let's make it happen!</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
           {/* Contact Form */}
-          <div className="animate-slide-right">
-            <div className="glass p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold text-textPrimary mb-6">Send Me a Message</h3>
+          <div className="animate-slide-right w-full">
+            <div className="glass p-6 md:p-8 rounded-2xl">
+              <h3 className="text-xl md:text-2xl font-bold text-textPrimary mb-6">Send Me a Message</h3>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 {/* Name Input */}
@@ -267,9 +267,9 @@ const Contact = () => {
           </div>
 
           {/* Contact Information */}
-          <div className="animate-slide-left space-y-8">
-            <div className="glass p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold text-textPrimary mb-6">Let's Connect</h3>
+          <div className="animate-slide-left space-y-8 w-full">
+            <div className="glass p-6 md:p-8 rounded-2xl">
+              <h3 className="text-2xl md:text-3xl font-bold text-textPrimary mb-6">Let's Connect</h3>
               
               <p className="text-textSecondary mb-8 leading-relaxed">
                 I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. 
@@ -277,21 +277,21 @@ const Contact = () => {
               </p>
 
               {/* Contact Details */}
-              <div className="space-y-6 mb-8">
+              <div className="space-y-4 md:space-y-6 mb-8">
                 {contactInfo.map((info, index) => {
                   const Icon = info.icon;
                   return (
                     <a
                       key={index}
                       href={info.href}
-                      className="flex items-center gap-4 p-4 bg-cardBg rounded-lg hover:bg-primary/10 transition-colors group"
+                      className="flex items-center gap-3 md:gap-4 p-3 md:p-4 bg-cardBg rounded-lg hover:bg-primary/10 transition-colors group overflow-hidden"
                     >
-                      <div className="p-3 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg group-hover:scale-110 transition-transform">
-                        <Icon className="text-primary" size={24} />
+                      <div className="p-2 md:p-3 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg group-hover:scale-110 transition-transform flex-shrink-0">
+                        <Icon className="text-primary" size={20} />
                       </div>
-                      <div>
-                        <p className="text-textSecondary text-sm">{info.label}</p>
-                        <p className="text-textPrimary font-semibold">{info.value}</p>
+                      <div className="min-w-0 flex-1">
+                        <p className="text-textSecondary text-xs md:text-sm">{info.label}</p>
+                        <p className="text-textPrimary font-semibold text-sm md:text-base truncate">{info.value}</p>
                       </div>
                     </a>
                   );
@@ -299,9 +299,9 @@ const Contact = () => {
               </div>
 
               {/* Social Media */}
-              <div className="border-t border-primary/20 pt-8">
-                <h4 className="text-lg font-bold text-textPrimary mb-4">Follow Me</h4>
-                <div className="flex gap-4">
+              <div className="border-t border-primary/20 pt-6 md:pt-8">
+                <h4 className="text-base md:text-lg font-bold text-textPrimary mb-4">Follow Me</h4>
+                <div className="flex flex-wrap gap-3 md:gap-4">
                   {socialLinks.map((social, index) => {
                     const Icon = social.icon;
                     return (
@@ -310,10 +310,10 @@ const Contact = () => {
                         href={social.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`p-4 glass rounded-lg ${social.color} transition-all hover:scale-110 card-hover`}
+                        className={`p-3 md:p-4 glass rounded-lg ${social.color} transition-all hover:scale-110 card-hover`}
                         aria-label={social.label}
                       >
-                        <Icon size={24} />
+                        <Icon size={20} />
                       </a>
                     );
                   })}
