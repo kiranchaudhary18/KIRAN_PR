@@ -39,7 +39,7 @@ const Projects = () => {
       title: 'Tattoos_studio_website',
       category: 'MERN',
       description: 'Designed and developed a user-friendly platform where tattoo lovers can discover styles, find artists, and learn about tattoo care. Integrated a virtual preview feature to enhance decision-making.',
-      image: '💉',
+      image: 'https://res.cloudinary.com/dnbayngfx/image/upload/v1767986231/Gemini_Generated_Image_tscffbtscffbtscf_as4mit.png',
       tech: ['React', 'Node.js', 'MongoDB', 'Express', "Jwt"],
       liveUrl: 'https://tattoos-dreamers-studio.onrender.com/',
       codeUrl: 'https://github.com/kiranchaudhary18/tattoos_website',
@@ -50,7 +50,7 @@ const Projects = () => {
       title: 'MediConnect - HealthCare Plateform',
       category: 'MERN',
       description: 'Developed a role-based healthcare web application featuring separate dashboards for Doctors, Patients, and Students. Included real-time chat, appointment management, analytics, and an AI assistant to enhance user interaction and learning experience',
-      image: '📋',
+      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&h=300&fit=crop',
       tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Jwt'],
       liveUrl: 'https://mediconnect-in.onrender.com/',
       codeUrl: 'https://github.com/kiranchaudhary18/MediConnect',
@@ -61,7 +61,7 @@ const Projects = () => {
       title: 'Ecommerce-forever',
       category: 'MERN',
       description: 'A modern full-stack fashion e-commerce application featuring dynamic product filtering, responsive layouts, consistent image handling, and a complete product detail and cart flow.',
-      image: '🌤️',
+      image: 'https://res.cloudinary.com/dnbayngfx/image/upload/v1767986615/Gemini_Generated_Image_h1dvxih1dvxih1dv_jd4a1i.png',
       tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Jwt', 'Stripe', 'Razorpay'],
       liveUrl: 'https://forever-in.onrender.com/',
       codeUrl: 'https://github.com/kiranchaudhary18/Ecommerce-app',
@@ -72,7 +72,7 @@ const Projects = () => {
       title: 'GearGuard  - Hackathon Project',
       category: 'MERN',
       description: 'Designed a full-stack Maintenance ERP system with role-based access and Kanban/calendar workflows for efficient asset and maintenance management.',
-      image: '💼',
+      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop',
       tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Jwt'],
       liveUrl: 'https://gearguard-qpbj.onrender.com/login',
       codeUrl: 'https://github.com/kiranchaudhary18/OdooXadani',
@@ -83,7 +83,7 @@ const Projects = () => {
       title: 'Code Review & Bug Finder',
       category: 'MERN',
       description: 'AI-powered Code Review tool that detects bugs, security issues, and optimizes your code — with refactoring and full review history built using the MERN stack + Groq API.',
-      image: '📱',
+      image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop',
       tech: ['React', 'Express', 'Socket.io', 'PostgreSQL'],
       liveUrl: 'https://code-review-and-bug-finder-in-rx4a.onrender.com/',
       codeUrl: 'https://github.com/kiranchaudhary18/code_review_and_bug_finder'
@@ -92,7 +92,7 @@ const Projects = () => {
       title: 'Habit-Tracker',
       category: 'In this use Supabase',
       description: 'A React app to search meals, Harry Potter characters, cocktails, and bank info using multiple public APIs — fast and dynamic UI.',
-      image: '📝',
+      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&h=300&fit=crop',
       tech: ['Next.js', 'MongoDB', 'Markdown', 'Auth0'],
       liveUrl: 'https://ai-habit-tracker-45qa.onrender.com',
       codeUrl: 'https://github.com/kiranchaudhary18/Habit_Tracker'
@@ -101,7 +101,7 @@ const Projects = () => {
       title: 'API Explorer Hub',
       category: 'React',
       description: 'A React app to search meals, Harry Potter characters, cocktails, and bank info using multiple public APIs — fast and dynamic UI.',
-      image: '💪',
+      image: 'https://res.cloudinary.com/dnbayngfx/image/upload/v1753954845/AJfQ9KR4NI61mWhshnNJXFzO3caqqk2adqqAS92yby4OdTXLFhCxSAQuheOlv4NqOD2wztsWxtDtgTDfa_6Tpal95bCXZakF3A_cBoe8SiZmkYc4gu_lKUhkdUs2T8b9UkpAgQv3yC0GAEddvb87nSwSIqsAw7MwqBYEUjVnZsfL7znTuVUY_1_txupui_moedzc.png',
       tech: ['React', 'Express.js', 'REST API'],
       liveUrl: 'https://react-api-1.onrender.com/',
       codeUrl: 'https://github.com/kiranchaudhary18/React-API'
@@ -110,7 +110,7 @@ const Projects = () => {
       title: 'Meme-generator',
       category: 'React',
       description: 'A meme generator that lets users upload or choose images, customize text styles, and download memes instantly.',
-      image: '🍕',
+      image: 'https://res.cloudinary.com/dnbayngfx/image/upload/v1767985896/Screenshot_2026-01-10_004226_l5btua.png',
       tech: ['React', 'REST API', 'gemini api'],
       liveUrl: 'https://meme-generator-pi-sepia.vercel.app/',
       codeUrl: 'https://github.com/kiranchaudhary18/Meme-generator'
@@ -119,7 +119,7 @@ const Projects = () => {
       title: 'YouPlayX',
       category: 'React',
       description: 'A Youtube clone in React with real time video search and playback using the YouTube API- clean and Responsive UI ',
-      image: '🍕',
+      image: 'https://res.cloudinary.com/dnbayngfx/image/upload/v1753941530/Y19wYWQsd18yMDAsaF8zMDA_2_a1bkss.png',
       tech: ['React', 'REST API', 'Express'],
       liveUrl: 'https://youtube-com-1.onrender.com/',
       codeUrl: 'https://github.com/kiranchaudhary18/youtube.com'
@@ -128,7 +128,7 @@ const Projects = () => {
       title: 'Cartoon NetWork',
       category: 'Clone',
       description: 'A fun and interactive website clone of the Cartoon Network homepage, built purely with HTML and CSS.',
-      image: '🍕',
+      image: 'https://res.cloudinary.com/dnbayngfx/image/upload/v1753954396/cartton_evgbvg_1_i43ioq.png',
       tech: ['HTML', 'CSS'],
       liveUrl: 'https://cartoon-website-1.netlify.app/',
       codeUrl: 'https://github.com/kiranchaudhary18/youtube.com'
@@ -137,7 +137,7 @@ const Projects = () => {
       title: 'DigiGold',
       category: 'Clone',
       description: 'A clean and modern landing page for a digital gold platform, designed to be fully responsive using HTML and CSS.',
-      image: '🍕',
+      image: 'https://res.cloudinary.com/dnbayngfx/image/upload/v1753954556/digigold_tijeho_1_um7bq0.png',
       tech: ['HTML', 'CSS'],
       liveUrl: 'https://digigold-1.netlify.app/',
       codeUrl: 'https://github.com/kiranchaudhary18/digigold'
@@ -146,7 +146,7 @@ const Projects = () => {
       title: 'CodingGita Clone in FIGMA',
       category: 'UI/UX',
       description: 'A UI/UX design prototype for a food delivery application, created with Figma to ensure a seamless user experience.',
-      image: '🍕',
+      image: 'https://res.cloudinary.com/dnbayngfx/image/upload/v1753956418/codinggita-logo_urbgxt_ocbtxz.png',
       tech: ['FIGMA'],
       liveUrl: 'https://www.figma.com/proto/E6bEiKGItd1H4CJyOPvKkQ/Food?page-id=0%3A1&node-id=37-360&starting-point-node-id=37%3A360&t=UH6IWR19sFSCTdtW-1',
       // codeUrl: 'https://github.com/kiranchaudhary18/digigold'
@@ -291,8 +291,16 @@ const Projects = () => {
                     style={{ backfaceVisibility: 'hidden' }}
                   >
                     {/* Project Image/Icon */}
-                    <div className="h-2/3 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center text-8xl">
-                      {project.image}
+                    <div className="h-2/3 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center overflow-hidden">
+                      <img 
+                        src={project.image} 
+                        alt={project.title}
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          e.target.style.display = 'none';
+                          e.target.parentElement.innerHTML = '<div class="flex items-center justify-center w-full h-full text-6xl">📁</div>';
+                        }}
+                      />
                     </div>
 
                     {/* Project Title */}
