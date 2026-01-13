@@ -66,7 +66,7 @@ const Projects = () => {
       liveUrl: 'https://tattoos-dreamers-studio.onrender.com/',
       codeUrl: 'https://github.com/kiranchaudhary18/tattoos_website',
       apiDocsUrl: 'https://documenter.getpostman.com/view/39216531/2sAYX2P4dZ',
-      demoVideoUrl: '#'
+      demoVideoUrl: 'https://www.youtube.com/watch?v=iLgs_iYD_4c'
     },
     {
       title: 'MediConnect - HealthCare Plateform',
